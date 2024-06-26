@@ -1,0 +1,33 @@
+body {
+ margin: 0;
+ padding: 0;
+}
+
+.container {
+ max-width: 1440px;
+
+}
+
+.header-inner {
+ margin: 20px;
+}
+
+.header {
+ background-color: rgba(255, 0, 0, 0.471);
+ height: 100vh;
+}
+
+.fixed-background {
+ position: fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ background: url('fon3-mob.jpg') no-repeat center/cover;
+ z-index: -1;
+}
+
+.scrollable-content {
+ position: relative;
+ z-index: 1;
+}
